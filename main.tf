@@ -1,4 +1,5 @@
 terraform {
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -15,7 +16,7 @@ terraform {
     organization = "ACG-terraform-Demos2424"
 
     workspaces {
-      name = "ACG-terraform-Demos2424"
+      name = "demo-github-actions"
     }
   }
 }
